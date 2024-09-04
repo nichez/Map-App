@@ -9,7 +9,7 @@ git clone https://github.com/nichez/Map-App.git
 cd Map-App
 
 # Install dependencies
-npm install
+pnpm install
 
 # Run the backend
 npx json-server --watch db.json --port 5000 --host localhost
